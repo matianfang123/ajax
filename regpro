@@ -1,0 +1,18 @@
+<?php
+	//接收数据
+	$username=$_GET['username'];
+	//echo "123";
+	//die();
+	//echo "用户名是".$username;
+	/*
+	include "conn.php";
+	$sql="select name from news where id='$id'";*/
+	if($username=="sword"){
+		echo 123;
+		echo "用户名不可用";
+	}else{
+		echo "用户名可用";
+	}
+
+
+?>
